@@ -1,47 +1,53 @@
 .home-container {
-  padding: 40px;
-  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
-  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  font-family: 'Roboto';
+  width: 100%;
+  background-position: center;
+  min-height: 90vh;
+  padding-bottom: 50px;
 }
-.home-heading {
+.home-text-container {
+  width: 90%;
   color: #ffffff;
-  font-family: roboto;
-  font-size: 50px;
 }
-.home-paragraph {
-  color: #ffffff;
-  font-family: roboto;
-  font-size: 25px;
-  width: 50%;
+.heading {
+  font-size: 42px;
 }
-.home-jobs-button {
-  color: #ffffff;
+.description {
+  font-size: 20px;
+  line-height: 42px;
+}
+.btn-find-jobs {
   background-color: #6366f1;
-  border: 0;
-  border-radius: 5px;
-  width: 100px;
-  font-weight: bold;
-  font-size: 15px;
-  font-family: roboto;
-  padding: 5px;
-  height: 40px;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 10px 15px;
   cursor: pointer;
 }
-.retry-btn-link {
-  text-decoration: none;
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .home-container {
-    padding: 15px;
-    flex-grow: 1;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    background-size: cover;
+    padding-left: 40px;
+    padding-top: 50px;
+    background-position: center;
+    height: auto;
   }
-  .home-heading {
-    font-size: 25px;
+  .home-text-container {
+    width: 60%;
+    align-self: flex-start;
   }
-  .home-paragraph {
-    font-size: 28px;
-    width: 100%;
+  .heading {
+    font-size: 72px;
+  }
+  .description {
+    font-size: 30px;
   }
 }
