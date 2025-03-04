@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "engines": {
     "node": "^22.x",
-    "pnpm": ">=8"
+    "npm": ">=8"
   },
   "dependencies": {
     "@testing-library/jest-dom": "5.11.9",
@@ -31,7 +31,7 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
-    "install": "pnpm install",
+    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
