@@ -38,7 +38,7 @@
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
     "run-all": "npm-run-all --parallel test lint:fix"
-      "install": "pnpm install"
+    
 
   },
   "lint-staged": {
